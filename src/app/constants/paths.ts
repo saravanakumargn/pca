@@ -1,0 +1,1 @@
+export const loginPage = 'http://tnocmms.nic.in/OCMMS/index.gsp';

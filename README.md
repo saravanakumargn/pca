@@ -26,10 +26,14 @@ Substitute ios for android if not on a Mac.
 
 
 Run your app in the browser (great for initial development):
-  ionic serve
+```bash
+ionic serve
+```
 
 Run on a device or simulator:
-  ionic cordova run ios
+```bash
+ionic cordova run ios
+```
 
 Test and share your app on a device with the Ionic View app:
   http://view.ionic.io

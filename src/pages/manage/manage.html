@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Manage</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    <ion-item>
+      <ion-input placeholder="Username"></ion-input>
+    </ion-item>    
+    <ion-item>
+      <ion-input placeholder="Password"></ion-input>
+    </ion-item>
+    <div>
+      <span>{{capchaCode}}</span>
+      </div>
+    <ion-item>
+      <ion-input placeholder="Code"></ion-input>
+    </ion-item>
+    <ion-item>
+      <button ion-button color="secondary" (click)="login()">Login</button>
+    </ion-item>
+  </ion-list>    
+</ion-content>
